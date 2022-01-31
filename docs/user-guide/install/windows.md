@@ -68,7 +68,7 @@ Confluent Cloud <small>(Event Streaming Platform based on Kafka)</small>%,%confl
 
 ### Step 6. Run installation script
 
-Launch windows shell (Command Prompt) as Administrator. Change directory to your ThingsBoard installation directory.
+**Launch windows shell (Command Prompt) as Administrator**. Change directory to your ThingsBoard installation directory.
 
 Execute **install.bat** script to install ThingsBoard as a Windows service (or run **"install.bat --loadDemo"** to install and add demo data).
 This means it will be automatically started on system startup. 
