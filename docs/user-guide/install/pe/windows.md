@@ -98,7 +98,7 @@ Confluent Cloud <small>(Event Streaming Platform based on Kafka)</small>%,%confl
 
 ### Step 7. Run installation script
 
-Launch windows shell (Command Prompt) as Administrator. Change directory to your ThingsBoard installation directory.
+Launch windows shell (Command Prompt) as **Administrator**. Change directory to your ThingsBoard installation directory.
 
 Execute **install.bat** script to install ThingsBoard as a Windows service (or run **"install.bat --loadDemo"** to install and add demo data).
 This means it will be automatically started on system startup. 
@@ -108,8 +108,8 @@ The output should be similar to this one:
   ```text
 C:\Program Files (x86)\thingsboard>install.bat --loadDemo
 Detecting Java version installed.
-CurrentVersion 18
-Java 1.8 found!
+CurrentVersion 110
+Java 11 found!
 Installing thingsboard ...
 ...
 ThingsBoard installed successfully!
