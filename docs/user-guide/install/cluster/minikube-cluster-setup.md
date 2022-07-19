@@ -54,7 +54,7 @@ In order to set database type change the value of `DATABASE` variable in `.env` 
 If you selected `cassandra` as `DATABASE` you can also configure the number of Cassandra nodes (`StatefulSet.spec.replicas` property in `cassandra.yml` config file) and the `CASSANDRA_REPLICATION_FACTOR` in `.env` file. 
 If you want to configure `CASSANDRA_REPLICATION_FACTOR` please read Cassandra documentation first.  
 
-It is recommended to have 3 Cassandra nodes with `CASSANDRA_REPLICATION_FACTOR` equal to 2.
+It is recommended to have 3 Cassandra nodes with `CASSANDRA_REPLICATION_FACTOR` equal to 3.
 
 {% endcapture %}
 {% include templates/info-banner.md content=cassandra-replication %}
