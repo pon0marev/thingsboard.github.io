@@ -36,7 +36,7 @@ See [**microservices**](/docs/reference/msa/) architecture page for more details
 
 ```bash
 git clone -b release-{{ site.release.ver }} https://github.com/thingsboard/thingsboard-ce-k8s.git
-cd thingsboard-ce-k8s/minikube
+cd thingsboard-ce-k8s/minikube/microservices
 ```
 
 ## Step 3. Configure ThingsBoard database
