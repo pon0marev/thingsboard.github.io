@@ -17,6 +17,13 @@ This guide will help you to setup ThingsBoard in cluster mode using Minikube too
 ThingsBoard Microservices run on the Kubernetes cluster. You need to have a Kubernetes cluster, and the `kubectl` command-line tool must be configured to communicate with your cluster. 
 If you don't have Minikube installed, please follow [these instructions](https://kubernetes.io/docs/setup/learning-environment/minikube/).
 
+### Start your cluster
+
+Create a cluster with the three node and minimum recommended parameters:
+```
+minikube start --nodes=3 --memory 8192 --cpus 2
+```
+{: .copy-code}
 
 ### Enable ingress addon
 
